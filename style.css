@@ -310,6 +310,23 @@ section .title::after{
 
 /* skills section styling */
 
+#skills{
+    animation-name: rainbow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow{
+    0%{
+        background-color: #ffd500;
+    }
+    50%{
+        background-color: #00ff95;
+    }
+    100%{
+        background-color: #ff00e0;
+    }
+}
+
 .skills .title::after{
     content: "what i know";
 }
