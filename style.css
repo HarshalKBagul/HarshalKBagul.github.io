@@ -317,13 +317,13 @@ section .title::after{
 }
 @keyframes rainbow{
     0%{
-        background-color: #ffd500;
+        background-color: #69c5f0;
     }
     50%{
-        background-color: #00ff95;
+        background-color: #7fd4b1;
     }
     100%{
-        background-color: #ff00e0;
+        background-color: #00ffd5;
     }
 }
 
